@@ -9,9 +9,9 @@ namespace IntroASPMVC.Controllers
     public class ProcessController : Controller
     {
         // GET: Process
-        public void List()
+        public ActionResult List()
         {
-            //return View();
+            return View();
         }
 
         // GET: Process/Details/5
